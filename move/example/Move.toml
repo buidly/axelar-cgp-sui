@@ -2,6 +2,7 @@
 name = "Example"
 version = "0.1.0"
 edition = "2024"
+published-at = "0x481f5417b6b34ec378d4d922808651a7cc0be9e317c40b4b22b8a85a8e46df85"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.38.3" }
@@ -13,4 +14,4 @@ InterchainTokenService = { local = "../interchain_token_service" }
 RelayerDiscovery = { local = "../relayer_discovery" }
 
 [addresses]
-example = "0xa9"
+example = "0x481f5417b6b34ec378d4d922808651a7cc0be9e317c40b4b22b8a85a8e46df85"

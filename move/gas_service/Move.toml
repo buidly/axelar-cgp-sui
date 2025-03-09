@@ -2,6 +2,7 @@
 name = "GasService"
 version = "0.1.0"
 edition = "2024"
+published-at = "0x637063e4c4ecf195c8dc0170cc82e68f8cbe94f019935cb848500352a03dd6fa"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.38.3" }
@@ -9,4 +10,4 @@ VersionControl = { local = "../version_control" }
 AxelarGateway = { local = "../axelar_gateway" }
 
 [addresses]
-gas_service = "0xa2"
+gas_service = "0x637063e4c4ecf195c8dc0170cc82e68f8cbe94f019935cb848500352a03dd6fa"

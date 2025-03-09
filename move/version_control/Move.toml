@@ -2,9 +2,10 @@
 name = "VersionControl"
 version = "0.1.0"
 edition = "2024"
+published-at = "0x2e4bebb14f9110d1c02890b64fd90dd3126ece249160bdf1092e80d0e525e5ae"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.38.3" }
 
 [addresses]
-version_control = "0xb0"
+version_control = "0x2e4bebb14f9110d1c02890b64fd90dd3126ece249160bdf1092e80d0e525e5ae"

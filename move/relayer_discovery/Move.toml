@@ -2,6 +2,7 @@
 name = "RelayerDiscovery"
 version = "0.1.0"
 edition = "2024"
+published-at = "0x6f8472f2d4e5d6bebc620403946ad49f7ce81fe0191902640932100118cd62f9"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.38.3" }
@@ -9,5 +10,4 @@ VersionControl = { local = "../version_control" }
 AxelarGateway = { local = "../axelar_gateway" }
 
 [addresses]
-relayer_discovery = "0xaa"
-clock = "0x6"
+relayer_discovery = "0x6f8472f2d4e5d6bebc620403946ad49f7ce81fe0191902640932100118cd62f9"

@@ -2,6 +2,7 @@
 name = "InterchainTokenService"
 version = "0.1.0"
 edition = "2024"
+published-at = "0x361b728d45c287afadf388ed69c234678022940db880e4b4a2ba5ad09b348a2f"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.38.3" }
@@ -12,4 +13,4 @@ VersionControl = { local = "../version_control" }
 RelayerDiscovery = { local = "../relayer_discovery" }
 
 [addresses]
-interchain_token_service = "0xa5"
+interchain_token_service = "0x361b728d45c287afadf388ed69c234678022940db880e4b4a2ba5ad09b348a2f"
